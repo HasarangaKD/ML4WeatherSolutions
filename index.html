@@ -1,1117 +1,1144 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 
     <title>ML4WeatherSolutions</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
+    <meta content="" name="description"/>
+    <meta content="" name="keywords"/>
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <link href="assets/img/favicon.png" rel="icon"/>
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"/>
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
     />
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet"/>
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
     />
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"/>
     <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
     />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"/>
 
-    <link href="assets/css/style.css" rel="stylesheet" />
-  </head>
+    <link href="assets/css/style.css" rel="stylesheet"/>
+</head>
 
-  <body>
-    <!-- ======= Top Bar ======= -->
-    <!-- <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">contact@example.com</a></i>
-        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section> -->
+<body>
 
-    <!-- ======= Header ======= -->
-    <header id="header" class="d-flex align-items-center">
-      <div class="container d-flex align-items-center justify-content-between">
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
         <h1 class="logo">
-          <a href="index.html">ML4WeatherSolutions<span>.</span></a>
+            <a href="index.html">ML4WeatherSolutions<span></span></a>
         </h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
         <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#portfolio">Portfolio</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#team">Team</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Drop Down</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Deep Drop Down</span>
-                    <i class="bi bi-chevron-right"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
+            <ul>
+                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                <li><a class="nav-link scrollto" href="#about">About</a></li>
+                <li>
+                    <a class="nav-link scrollto" href="#featured-services">Individual Components</a>
                 </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
+                <li><a class="nav-link scrollto" href="#services">Objectives</a></li>
+
+                <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                <li><a class="nav-link scrollto" href="#counts">Downloads</a></li>
+                <!--                <li class="dropdown">-->
+                <!--                    <a href="#"-->
+                <!--                    ><span>Drop Down</span> <i class="bi bi-chevron-down"></i-->
+                <!--                    ></a>-->
+                <!--                    <ul>-->
+                <!--                        <li><a href="#">Drop Down 1</a></li>-->
+                <!--                        <li class="dropdown">-->
+                <!--                            <a href="#"-->
+                <!--                            ><span>Deep Drop Down</span>-->
+                <!--                                <i class="bi bi-chevron-right"></i-->
+                <!--                                ></a>-->
+                <!--                            <ul>-->
+                <!--                                <li><a href="#">Deep Drop Down 1</a></li>-->
+                <!--                                <li><a href="#">Deep Drop Down 2</a></li>-->
+                <!--                                <li><a href="#">Deep Drop Down 3</a></li>-->
+                <!--                                <li><a href="#">Deep Drop Down 4</a></li>-->
+                <!--                                <li><a href="#">Deep Drop Down 5</a></li>-->
+                <!--                            </ul>-->
+                <!--                        </li>-->
+                <!--                        <li><a href="#">Drop Down 2</a></li>-->
+                <!--                        <li><a href="#">Drop Down 3</a></li>-->
+                <!--                        <li><a href="#">Drop Down 4</a></li>-->
+                <!--                    </ul>-->
+                <!--                </li>-->
+                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
         </nav>
         <!-- .navbar -->
-      </div>
-    </header>
-    <!-- End Header -->
+    </div>
+</header>
+<!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <h1>Welcome to <span>ML4WeatherSolutions</span></h1>
-        <h2>
-          Machine learning for forecasting Regional wise Weather-Based Disaster
-          Preparedness, Sustainable Agriculture, and Hydraulic Power generation.
+        <h2 style="color: rgb(59,59,59);">
+            Machine learning for forecasting Regional wise Weather-Based Disaster
+            Preparedness, Sustainable Agriculture, and Hydraulic Power generation.
         </h2>
         <div class="d-flex">
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
-          <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
         </div>
-      </div>
+    </div>
+</section>
+<!-- End Hero -->
+
+<main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>About</h2>
+                <h3><span>Introduction</span></h3>
+                <br/>
+                <h4>
+                    Machine learning for forecasting Regional wise Weather-Based Disaster
+                    Preparedness, Sustainable Agriculture, and Hydraulic Power generation.
+                </h4>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <img src="assets/img/home7.jpg" class="img-fluid" alt=""/>
+
+                    <br/>
+                    <br/>
+
+                    <p style="text-align: justify;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rainfall is one of the most important weather
+                        conditions in Sri Lanka. Forecasting possible rainfall can help to solve several problems
+                        related to the tourism industry, natural disaster management, agricultural industry, etc. As the
+                        Sri Lankan rural economy is mostly based on agriculture, it is important to forecast rainfall as
+                        well as other weather conditions accurately. Sri Lanka mainly experiences two main monsoon
+                        seasons called the Southwest Monsoon and the Northeast Monsoon. Rathnapura districts take a
+                        prominent place among the areas that receive rain from southwest monsoon. Thus, due to the
+                        inability to predict the heavy rainfall in the Ratnapura district in advance, many cases of
+                        natural disasters such as floods and the destruction of agricultural crops have been reported
+                        Because of that this study is focused on regional-based rainfall prediction for the Rathnapura
+                        district and predicting the impact of rainfall on flood, agriculture, and others. In Sri Lanka,
+                        which is prone to floods, droughts, landslides, and cyclones, flooding emerges as one of the
+                        most frequently occurring and damaging natural disasters. It affects human life, the
+                        infrastructure, agriculture, and the social and economic systems of a country. According to the
+                        Disaster Management Center and the Department of Meteorology of Sri Lanka, heavy rainfall is the
+                        main cause of flooding compared to other human activities. Among the affected areas from the
+                        flooding, the Rathnapura district stands out as one of the most vulnerable. Because the Kalu
+                        Ganga, one of the largest rivers in Sri Lanka, which receives very high rainfall and has a high
+                        discharge, flows through the Rathnapura District. During the previous 22 years, the Ratnapura
+                        district faced the largest number of flood events. So forecasting flood occurrence is very
+                        important in most of the applications in disaster management and risk mitigation systems. This
+                        study delves into flood forecasting in Rathnapura District, using hydro meteorological data and
+                        advanced machine learning techniques, with the intention of improving disaster preparedness and
+                        response. The study focuses on the K-Nearest Neighbor (KNN) model and Long Short-Term Memory
+                        (LSTM) model, which shows strong potential for flood prediction. By analyzing historical and
+                        current data, the study aims to reduce the impact of extreme weather conditions through improved
+                        mitigation planning.
+                    </p>
+
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+                     data-aos="fade-up"
+                     data-aos-delay="100"
+                >
+                    <p style="text-align: justify;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As rice is the staple food in Sri Lanka, rice
+                        cultivation has been given high priority in agriculture. However, due to the use of rice in
+                        other food products, rice has become the most popular crop nowadays. Therefore, it is very
+                        important to predict the rice yield in different provinces of Sri Lanka. Among the
+                        rice-cultivating districts in Sri Lanka, the Ratnapura districts of Sabaragamuwa province occupy
+                        a leading position.
+
+                    </p>
+
+                    <p style="text-align: justify;">
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It is well known that climate change has a
+                        significant impact on the cultivation of paddy.
+                        Therefore, it is beneficial in many ways to understand the connections between climatic
+                        variables and paddy yield. This study uses paddy harvesting data from the Rathnapura District,
+                        Sri Lanka, to demonstrate an artificial neural network (ANN) framework that may be utilized to
+                        assess the correlations between meteorological factors and the paddy yield. as a most beneficial
+                        paddy-producing region in Sri Lanka is a Sabaragamuwa province, thus the research has a lot of
+                        promise and interest. In this study, mainly climate variables including rainfall were considered
+                        and try to predict the rice yield in Yala and Maha sessions
+                        In Sri Lanka, power generation encompasses a diverse array of methods to meet the energy demand,
+                        yet challenges persist in providing uninterrupted electricity. Variability in sources like
+                        hydroelectricity, susceptible to droughts, compels the utilization of alternative energies.
+                    </p>
+                    <p style="text-align: justify;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;Addressing these issues necessitates a comprehensive comprehension of
+                        the power system and
+                        consumption patterns. By amalgamating the principles of hydropower generation with adaptable
+                        energy strategies, a continuous and reliable electricity supply becomes feasible. This research
+                        embarks on an exploration of this paradigm, emphasizing the cyclic nature of energy consumption
+                        and its correlation with climatic conditions. Through predictive modeling of hydropower
+                        generation influenced by rainfall, the study seeks to establish a dynamic framework for energy
+                        allocation. Consequently, a harmonized system balancing hydropower dependence during the wet
+                        season and seamless transition to alternative sources during droughts could revolutionize Sri
+                        Lanka's energy landscape, fostering infrastructure development and sustained power availability.
+                        According to the above paragraphs, the Ratnapura district in the Sabaragamuwa province of Sri
+                        Lanka has been affected by floods due to rainfall, agricultural crops have been damaged due to
+                        adverse weather extremes, and has the potential to collect water for hydropower generation. For
+                        these reasons, this study conducted regional-based rainfall forecasting for the Ratnapura
+                        district and predicted the effect of rainfall on disasters, agriculture, and hydropower
+                        generation.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
-    <!-- End Hero -->
+    <!-- End About Section -->
 
-    <main id="main">
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team section-bg">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
         <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Team</h2>
-            <h3>Our Hardworking <span>Team Members</span></h3>
-            <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
-          </div>
 
-          <div class="row">
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/Picture1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-                </div>
-                <div class="member-info">
-                  <h4>U.P. Hasin Pramodya</h4>
-                  <span>IT20155148 (Team Leader)</span>
-                </div>
-              </div>
+            <div class="section-title">
+                <h2>Components</h2>
+                <h3>Our Individual Research <span>Components</span></h3>
             </div>
 
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/Picture2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+            <div class="row">
+                <div
+                        class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                >
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="bx bx-cloud-drizzle"></i></div>
+                        <h4 class="title">
+                            <a href="">Regional wise Rainfall Forecasting</a>
+                        </h4>
+                        <p class="description">
+                            We provide you with daily, weekly, and monthly rainfall forecasts exclusively for Ratnapura
+                            District. Plan your agricultural activities, assess flood risks, and optimize hydropower
+                            generation with region-specific confidence. We ensure your decisions are rooted in
+                            Ratnapura's unique weather conditions with our tailored insights.
+                        </p>
+                    </div>
                 </div>
-                <div class="member-info">
-                  <h4>K.D.Hasaranga</h4>
-                  <span>IT20161392</span>
-                </div>
-              </div>
-            </div>
 
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/Picture3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                <div
+                        class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                >
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><i class="bx bx-swim"></i></div>
+                        <h4 class="title">
+                            <a href="">Regional wise Natural Disaster Forecasting(flood)</a>
+                        </h4>
+                        <p class="description">
+                            We provide customized flood predictions tailored to the unique geography and weather
+                            patterns of Ratnapura District. We empower you to proactively prepare for and mitigate flood
+                            risks in this region with our real-time monitoring and advanced warning systems.
+                        </p>
+                    </div>
                 </div>
-                <div class="member-info">
-                  <h4>C.P.Weerasinghe</h4>
-                  <span>IT20148836</span>
-                </div>
-              </div>
-            </div>
 
-            <div
-              class="col-lg-3 col-md-6 d-flex align-items-stretch"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="member">
-                <div class="member-img">
-                  <img
-                    src="assets/img/team/Picture4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
+                <div
+                        class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                >
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon"><i class="bx bx-leaf"></i></div>
+                        <h4 class="title">
+                            <a href="">Regional Wise Paddy crop yield Forecasting</a>
+                        </h4>
+                        <p class="description">
+                            Our forecasts are finely tuned to the agricultural nuances of Yala and Maha crop seasons in
+                            this region, allowing you to make data-driven decisions for planting and harvesting.
+                            Increase crop yields and reap the rewards of your agricultural efforts in Ratnapura with
+                            confidence.
+                        </p>
+                    </div>
                 </div>
-                <div class="member-info">
-                  <h4>Y.D Abeygunewardana</h4>
-                  <span>IT20115784</span>
+
+                <div
+                        class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
+                >
+                    <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="bx bx-bolt-circle"></i></div>
+                        <h4 class="title">
+                            <a href=""
+                            >Regional Wise Power Generation and Consumption
+                                Forecasting</a
+                            >
+                        </h4>
+                        <p class="description">
+                            Find out what the region's potential power generation and consumption trends are. We can
+                            help you minimize waste and optimize energy resources no matter what your industry is -
+                            sustainable energy, grid management, or hydropower.
+                        </p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
-      <!-- End Team Section -->
+    </section>
+    <!-- End Featured Services Section -->
 
-      <!-- ======= Featured Services Section ======= -->
-      <section id="featured-services" class="featured-services">
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
         <div class="container" data-aos="fade-up">
-          <div class="row">
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                <div class="icon"><i class="bx bx-cloud-drizzle"></i></div>
-                <h4 class="title">
-                  <a href="">Regional wise weather Forecasting</a>
-                </h4>
-                <p class="description">
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
+            <div class="section-title">
+                <h2>Objectives</h2>
+                <h3>Check our Research <span>Objectives</span></h3>
+                <p>
+                    Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
+                    adipisci expedita at voluptas atque vitae autem.
                 </p>
-              </div>
             </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                <div class="icon"><i class="bx bx-swim"></i></div>
-                <h4 class="title">
-                  <a href="">Regional wise Natural Disaster Forecasting</a>
-                </h4>
-                <p class="description">
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
-                </p>
-              </div>
+
+            <div class="row">
+
+                <div class="col-md-2">
+                </div>
+
+                <div class="col-md-8 d-flex align-items-stretch"
+                     data-aos="zoom-in"
+                     data-aos-delay="100"
+                >
+                    <div class="icon-box">
+                        <h4><a href="">Main Objective</a></h4>
+                        <p>
+                            Providing accurate regional-based rainfall forecasting for Ratnapura district and
+                            forecasting the impact of rainfall on flood, agriculture, and hydropower generation for
+                            Ratnapura districts based on predicted rainfall.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                </div>
+
             </div>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon"><i class="bx bx-leaf"></i></div>
-                <h4 class="title">
-                  <a href="">Reagional Wise Paddy crop yield Forecasting</a>
-                </h4>
-                <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
-                </p>
-              </div>
-            </div>
+            <h4 class="text-center mt-3 mb-3"><a href=""><span>Specific Objectives</span></a></h4>
 
-            <div
-              class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0"
-            >
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon"><i class="bx bx-bolt-circle"></i></div>
-                <h4 class="title">
-                  <a href=""
-                    >Regional Wise Power Generation and Consumption
-                    Forecasting</a
-                  >
-                </h4>
-                <p class="description">
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                </p>
-              </div>
+
+            <div class="row">
+
+                <div class="col-md-3 d-flex align-items-stretch"
+                     data-aos="zoom-in"
+                     data-aos-delay="100"
+                >
+                    <div class="icon-box">
+
+                        <p>
+                            Regional-specific rainfall forecasting for the Ratnapura district to do both short- and
+                            long-term rainfall prediction with better accuracy.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch"
+                     data-aos="zoom-in"
+                     data-aos-delay="100"
+                >
+                    <div class="icon-box">
+
+                        <p>
+                            Region-specific flood prediction model for the Rathnapura district, with a particular focus
+                            on the Kalu Ganga River basin, by leveraging data-driven insights from heavy rainfall
+                            patterns.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch"
+                     data-aos="zoom-in"
+                     data-aos-delay="100"
+                >
+                    <div class="icon-box">
+
+                        <p>
+                            Forecasting the paddy yield of Rathnapura district during the yala and maha sessions based
+                            on rainfall patterns.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 d-flex align-items-stretch"
+                     data-aos="zoom-in"
+                     data-aos-delay="100"
+                >
+                    <div class="icon-box">
+
+                        <p>
+                            Providing better solutions by combining weather prediction, power generation prediction, and
+                            power consumption prediction models to optimize the operation of hydraulic turbines under
+                            various weather conditions in a specific area.
+                        </p>
+                    </div>
+                </div>
+
+
             </div>
-          </div>
         </div>
-      </section>
-      <!-- End Featured Services Section -->
+    </section>
+    <!-- End Services Section -->
 
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>About</h2>
-            <h3>Find Out More <span>About Us</span></h3>
-            <p>
-              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-              adipisci expedita at voluptas atque vitae autem.
-            </p>
-          </div>
 
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-              <img src="assets/img/about.jpg" class="img-fluid" alt="" />
-            </div>
-            <div
-              class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h3>
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <ul>
-                <li>
-                  <i class="bx bx-store-alt"></i>
-                  <div>
-                    <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                    <p>
-                      Magni facilis facilis repellendus cum excepturi quaerat
-                      praesentium libre trade
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <i class="bx bx-images"></i>
-                  <div>
-                    <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                    <p>
-                      Quo totam dolorum at pariatur aut distinctio dolorum
-                      laudantium illo direna pasata redi
-                    </p>
-                  </div>
-                </li>
-              </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
-
-      <!-- ======= Skills Section ======= -->
-      <section id="skills" class="skills">
-        <div class="container" data-aos="fade-up">
-          <div class="row skills-content">
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="100"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">JavaScript <i class="val">75%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="75"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="progress">
-                <span class="skill">PHP <i class="val">80%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="80"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="90"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-
-              <div class="progress">
-                <span class="skill">Photoshop <i class="val">55%</i></span>
-                <div class="progress-bar-wrap">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    aria-valuenow="55"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Skills Section -->
-
-      <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
-        <div class="container" data-aos="fade-up">
-          <div class="row">
-            <div class="col-lg-3 col-md-6">
-              <div class="count-box">
-                <i class="bi bi-emoji-smile"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="232"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Happy Clients</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-              <div class="count-box">
-                <i class="bi bi-journal-richtext"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="521"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Projects</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box">
-                <i class="bi bi-headset"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="1463"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Hours Of Support</p>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box">
-                <i class="bi bi-people"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="15"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>Hard Workers</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Counts Section -->
-
-      <!-- ======= Clients Section ======= -->
-      <section id="clients" class="clients section-bg">
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients section-bg">
         <div class="container" data-aos="zoom-in">
-          <div class="row">
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-1.jpg"
-                class="img-fluid"
-                alt=""
-              />
+
+            <div class="section-title">
+                <h2>Tools</h2>
+                <h3>Tools & Technologies <span>Methodology</span></h3>
+                <p>
+                    Here are the tools and technologies we used to developed our machine learning model and web
+                    application.
+                </p>
             </div>
 
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-2.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+            <div class="row">
+                <div
+                        class="col-md-2 col-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                            src="assets/img/clients/client-1.jpg"
+                            class="img-fluid"
+                            alt=""
+                    />
+                </div>
 
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-3.png"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                        class="col-md-2 col-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                            src="assets/img/clients/client-2.png"
+                            class="img-fluid"
+                            alt=""
+                    />
+                </div>
 
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-4.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                        class="col-md-2 col-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                            src="assets/img/clients/client-3.png"
+                            class="img-fluid"
+                            alt=""
+                    />
+                </div>
 
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-5.jpg"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
+                <div
+                        class="col-md-2 col-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                            src="assets/img/clients/client-4.jpg"
+                            class="img-fluid"
+                            alt=""
+                    />
+                </div>
 
-            <div
-              class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center"
-            >
-              <img
-                src="assets/img/clients/client-6.png"
-                class="img-fluid"
-                alt=""
-              />
+                <div
+                        class="col-md-2 col-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                            src="assets/img/clients/client-5.jpg"
+                            class="img-fluid"
+                            alt=""
+                    />
+                </div>
+
+                <div
+                        class="col-md-2 col-6 d-flex align-items-center justify-content-center"
+                >
+                    <img
+                            src="assets/img/clients/client-6.png"
+                            class="img-fluid"
+                            alt=""
+                    />
+                </div>
             </div>
-          </div>
         </div>
-      </section>
-      <!-- End Clients Section -->
+    </section>
+    <!-- End Clients Section -->
 
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team ">
         <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Services</h2>
-            <h3>Check our <span>Services</span></h3>
-            <p>
-              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-              adipisci expedita at voluptas atque vitae autem.
-            </p>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>
-                  Voluptatum deleniti atque corrupti quos dolores et quas
-                  molestias excepturi
-                </p>
-              </div>
+            <div class="section-title">
+                <h2>Team</h2>
+                <h3>Our Hardworking <span>Team Members</span></h3>
+                <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
             </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
-                <p>
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore
-                </p>
-              </div>
-            </div>
+            <div class="row">
+                <div
+                        class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                >
+                    <div class="member">
+                        <div class="member-img">
+                            <img
+                                    src="assets/img/team/Picture1.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                            />
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>U.P. Hasin Pramodya</h4>
+                            <span>IT20155148 (Team Leader)</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia
-                </p>
-              </div>
-            </div>
+                <div
+                        class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                >
+                    <div class="member">
+                        <div class="member-img">
+                            <img
+                                    src="assets/img/team/Picture2.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                            />
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>K.D.Hasaranga</h4>
+                            <span>IT20161392</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                </p>
-              </div>
-            </div>
+                <div
+                        class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                >
+                    <div class="member">
+                        <div class="member-img">
+                            <img
+                                    src="assets/img/team/Picture3.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                            />
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>C.P.Weerasinghe</h4>
+                            <span>IT20148836</span>
+                        </div>
+                    </div>
+                </div>
 
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
-                <p>
-                  Quis consequatur saepe eligendi voluptatem consequatur dolor
-                  consequuntur
-                </p>
-              </div>
+                <div
+                        class="col-lg-3 col-md-6 d-flex align-items-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                >
+                    <div class="member">
+                        <div class="member-img">
+                            <img
+                                    src="assets/img/team/Picture4.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                            />
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info">
+                            <h4>Y.D Abeygunewardana</h4>
+                            <span>IT20115784</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
-                <p>
-                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                  sit aspernatur
-                </p>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-      <!-- End Services Section -->
+    </section>
+    <!-- End Team Section -->
 
-      <!-- ======= Testimonials Section ======= -->
-      <section id="testimonials" class="testimonials">
+
+    <!--    &lt;!&ndash; ======= Skills Section ======= &ndash;&gt;-->
+    <!--    <section id="skills" class="skills">-->
+    <!--        <div class="container" data-aos="fade-up">-->
+    <!--            <div class="row skills-content">-->
+    <!--                <div class="col-lg-6">-->
+    <!--                    <div class="progress">-->
+    <!--                        <span class="skill">HTML <i class="val">100%</i></span>-->
+    <!--                        <div class="progress-bar-wrap">-->
+    <!--                            <div-->
+    <!--                                    class="progress-bar"-->
+    <!--                                    role="progressbar"-->
+    <!--                                    aria-valuenow="100"-->
+    <!--                                    aria-valuemin="0"-->
+    <!--                                    aria-valuemax="100"-->
+    <!--                            ></div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+
+    <!--                    <div class="progress">-->
+    <!--                        <span class="skill">CSS <i class="val">90%</i></span>-->
+    <!--                        <div class="progress-bar-wrap">-->
+    <!--                            <div-->
+    <!--                                    class="progress-bar"-->
+    <!--                                    role="progressbar"-->
+    <!--                                    aria-valuenow="90"-->
+    <!--                                    aria-valuemin="0"-->
+    <!--                                    aria-valuemax="100"-->
+    <!--                            ></div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+
+    <!--                    <div class="progress">-->
+    <!--                        <span class="skill">JavaScript <i class="val">75%</i></span>-->
+    <!--                        <div class="progress-bar-wrap">-->
+    <!--                            <div-->
+    <!--                                    class="progress-bar"-->
+    <!--                                    role="progressbar"-->
+    <!--                                    aria-valuenow="75"-->
+    <!--                                    aria-valuemin="0"-->
+    <!--                                    aria-valuemax="100"-->
+    <!--                            ></div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+
+    <!--                <div class="col-lg-6">-->
+    <!--                    <div class="progress">-->
+    <!--                        <span class="skill">PHP <i class="val">80%</i></span>-->
+    <!--                        <div class="progress-bar-wrap">-->
+    <!--                            <div-->
+    <!--                                    class="progress-bar"-->
+    <!--                                    role="progressbar"-->
+    <!--                                    aria-valuenow="80"-->
+    <!--                                    aria-valuemin="0"-->
+    <!--                                    aria-valuemax="100"-->
+    <!--                            ></div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+
+    <!--                    <div class="progress">-->
+    <!--                        <span class="skill">WordPress/CMS <i class="val">90%</i></span>-->
+    <!--                        <div class="progress-bar-wrap">-->
+    <!--                            <div-->
+    <!--                                    class="progress-bar"-->
+    <!--                                    role="progressbar"-->
+    <!--                                    aria-valuenow="90"-->
+    <!--                                    aria-valuemin="0"-->
+    <!--                                    aria-valuemax="100"-->
+    <!--                            ></div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+
+    <!--                    <div class="progress">-->
+    <!--                        <span class="skill">Photoshop <i class="val">55%</i></span>-->
+    <!--                        <div class="progress-bar-wrap">-->
+    <!--                            <div-->
+    <!--                                    class="progress-bar"-->
+    <!--                                    role="progressbar"-->
+    <!--                                    aria-valuenow="55"-->
+    <!--                                    aria-valuemin="0"-->
+    <!--                                    aria-valuemax="100"-->
+    <!--                            ></div>-->
+    <!--                        </div>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </section>-->
+    <!--    &lt;!&ndash; End Skills Section &ndash;&gt;-->
+
+    <!-- ======= Documents download ======= -->
+    <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Downloads</h2>
+                <h3>Our Research Documentations for <span>Downloads</span></h3>
+            </div>
+
+            <br/>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="count-box">
+                        <i class="bi bi-file-earmark-text"></i>
+                        <p style="font-weight: bold;margin-bottom:8px;font-size: 17px;">Research Paper</p>
+                        <a href="assets/documents/Research_Paper-TMP-23-364.pdf" download>
+                            <button class="btn btn-primary">Download</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                    <div class="count-box">
+                        <i class="bi bi-file-earmark-text"></i>
+                        <p style="font-weight: bold;margin-bottom:8px;font-size: 17px;">Research Paper</p>
+                        <a href="assets/documents/Research_Paper-TMP-23-364.pdf" download>
+                            <button class="btn btn-primary">Download</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="bi bi-file-earmark-text"></i>
+                        <p style="font-weight: bold;margin-bottom:8px;font-size: 17px;">Research Paper</p>
+                        <a href="assets/documents/Research_Paper-TMP-23-364.pdf" download>
+                            <button class="btn btn-primary">Download</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                    <div class="count-box">
+                        <i class="bi bi-file-earmark-text"></i>
+                        <p style="font-weight: bold;margin-bottom:8px;font-size: 17px;">Research Paper</p>
+                        <a href="assets/documents/Research_Paper-TMP-23-364.pdf" download>
+                            <button class="btn btn-primary">Download</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Counts Section -->
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
         <div class="container" data-aos="zoom-in">
-          <div
-            class="testimonials-slider swiper"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <div class="swiper-wrapper">
+            <div
+                    class="testimonials-slider swiper"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+            >
+                <div class="swiper-wrapper">
 
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-1.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Ms. Vindhya Kalapuge</h3>
-                  <h4>Supervisor</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    FACULTY OF COMPUTING | COMPUTER SCIENCE & SOFTWARE ENGINEERING
-                    <br/>
-                    M.Sc. in Big Data Analytics, Robert Gordon University, UK, 2022
-B.Sc in Computational Physics, University of Colombo, Sri Lanka, 2018
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img
+                                    src="assets/img/testimonials/testimonials-1.jpg"
+                                    class="testimonial-img"
+                                    alt=""
+                            />
+                            <h3>Ms. Vindhya Kalapuge</h3>
+                            <h4>Supervisor</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                FACULTY OF COMPUTING | COMPUTER SCIENCE & SOFTWARE ENGINEERING
+                                <br/>
+                                M.Sc. in Big Data Analytics, Robert Gordon University, UK, 2022
+                                B.Sc in Computational Physics, University of Colombo, Sri Lanka, 2018
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img
+                                    src="assets/img/testimonials/testimonials-2.jpg"
+                                    class="testimonial-img"
+                                    alt=""
+                            />
+                            <h3>Dr. Shanta Rajapaksha Yapa</h3>
+                            <h4>Core Supervisor</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                FACULTY OF BUSINESS | INFORMATION MANAGEMENT
+                                <br/>
+                                PhD in Management & Business Studies - Faculty of Management & Finance, University of
+                                Colombo - Thesis: Open Innovation (2014-2020)
+                                MSc - Textile & Clothing, Faculty of Engineering, University of Moratuwa (2003-2007)
+                                MBA - Postgraduate Institue of Management, University of Sri Jayewaradenepura
+                                (1995-1998)
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End testimonial item -->
+
+
                 </div>
-              </div>
-              <!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-item">
-                  <img
-                    src="assets/img/testimonials/testimonials-2.jpg"
-                    class="testimonial-img"
-                    alt=""
-                  />
-                  <h3>Dr. Shanta Rajapaksha Yapa</h3>
-                  <h4>Core Supervisor</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    FACULTY OF BUSINESS | INFORMATION MANAGEMENT 
-                    <br/>
-                    PhD in Management & Business Studies - Faculty of Management & Finance, University of Colombo - Thesis: Open Innovation  (2014-2020)
-MSc - Textile & Clothing, Faculty of Engineering, University of Moratuwa (2003-2007)
-MBA - Postgraduate Institue of Management, University of Sri Jayewaradenepura (1995-1998)
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-              <!-- End testimonial item -->
-
-              
+                <div class="swiper-pagination"></div>
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
         </div>
-      </section>
-      <!-- End Testimonials Section -->
+    </section>
+    <!-- End Testimonials Section -->
 
-      <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq section-bg">
         <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Portfolio</h2>
-            <h3>Check our <span>Portfolio</span></h3>
-            <p>
-              Ut possimus qui ut temporibus culpa velit eveniet modi omnis est
-              adipisci expedita at voluptas atque vitae autem.
-            </p>
-          </div>
+            <div class="section-title">
+                <h2>F.A.Q</h2>
+                <h3>Research Findings & <span>FutureWorks</span></h3>
+                <br/>
 
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
+                <h4>
+                    Ratnapura district is one of the region that receives the highest
+                    annual rainfall in Sri Lanka. Due to the impossibility of
+                    accurately predicting such large amounts of rainfall, flood
+                    disaster situations and agricultural crop destruction are
+                    frequently reported
+                </h4>
 
-      <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>F.A.Q</h2>
-            <h3>Research Findings & <span>FutureWorks</span></h3>
-            <p>
-              Ratnapura district is one of the region that receives the highest
-              annual rainfall in Sri Lanka. Due to the impossibility of
-              accurately predicting such large amounts of rainfall, flood
-              disaster situations and agricultural crop destruction are
-              frequently reported
-            </p>
-          </div>
-
-          <div class="row justify-content-center">
-            <div class="col-xl-10">
-              <ul class="faq-list">
-                <li>
-                  <div
-                    data-bs-toggle="collapse"
-                    class="collapsed question"
-                    href="#faq1"
-                  >
-                    If the rainfall and its impact on flood and agriculture can
-                    be predicted properly,..
-                    <i class="bi bi-chevron-down icon-show"></i
-                    ><i class="bi bi-chevron-up icon-close"></i>
-                  </div>
-                  <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      these problems can be avoided. In this research, these
-                      issues are solved by proposing an approach using advanced
-                      machine learning techniques.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div
-                    data-bs-toggle="collapse"
-                    href="#faq2"
-                    class="collapsed question"
-                  >
-                    In this Study different Machine models are developed to
-                    forecast ... <i class="bi bi-chevron-down icon-show"></i
-                    ><i class="bi bi-chevron-up icon-close"></i>
-                  </div>
-                  <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      daily, weekly, monthly, and quarterly rainfall, to predict
-                      agricultural yield based on rainfall while the other
-                      factors remain constant, and to predict hydropower
-                      generation based on rainfall while other factors remain
-                      constant
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div
-                    data-bs-toggle="collapse"
-                    href="#faq3"
-                    class="collapsed question"
-                  >
-                    Predicting the upcoming rainfall, the rice harvest, and
-                    hydraulic power production even before the rain is unique
-                    here. <i class="bi bi-chevron-down icon-show"></i
-                    ><i class="bi bi-chevron-up icon-close"></i>
-                  </div>
-                  <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      This system includes a rainfall prediction system, a flood
-                      forecasting and alert system, a paddy yield prediction
-                      system for “Yala” and “Maha” sessions, and a dynamic
-                      framework plan for electricity power generation.
-                    </p>
-                  </div>
-                </li>
-
-                <li>
-                  <div
-                    data-bs-toggle="collapse"
-                    href="#faq4"
-                    class="collapsed question"
-                  >
-                    In terms of future work, the system can be expanded by
-                    improving accuracy...
-                    <i class="bi bi-chevron-down icon-show"></i
-                    ><i class="bi bi-chevron-up icon-close"></i>
-                  </div>
-                  <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                    <p>
-                      by incorporating more data for training and can be
-                      provided to government institutes responsible for the
-                      fields of agriculture, disaster management, and power
-                      generation to facilitate their decisions.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Frequently Asked Questions Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>Contact</h2>
-            <h3><span>Contact Us</span></h3>
-            <p>Contact us for further clarrifications</p>
-          </div>
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-6">
-              <div class="info-box mb-4">
-                <i class="bx bx-map"></i>
-                <h3>Our Address</h3>
-                <p>Pittugala ,Malabe,Sri Lanka</p>
-              </div>
             </div>
 
-            <div class="col-lg-3 col-md-6">
-              <div class="info-box mb-4">
-                <i class="bx bx-envelope"></i>
-                <h3>Email Us</h3>
-                <p>contact@example.com</p>
-              </div>
-            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <ul class="faq-list">
+                        <li>
+                            <div
+                                    data-bs-toggle="collapse"
+                                    class="collapsed question"
+                                    href="#faq1"
+                            >
+                                If the rainfall and its impact on flood and agriculture can
+                                be predicted properly,..
+                                <i class="bi bi-chevron-down icon-show"></i
+                                ><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    these problems can be avoided. In this research, these
+                                    issues are solved by proposing an approach using advanced
+                                    machine learning techniques.
+                                </p>
+                            </div>
+                        </li>
 
-            <div class="col-lg-3 col-md-6">
-              <div class="info-box mb-4">
-                <i class="bx bx-phone-call"></i>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div>
-          </div>
+                        <li>
+                            <div
+                                    data-bs-toggle="collapse"
+                                    href="#faq2"
+                                    class="collapsed question"
+                            >
+                                In this Study different Machine models are developed to
+                                forecast ... <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    daily, weekly, monthly, and quarterly rainfall, to predict
+                                    agricultural yield based on rainfall while the other
+                                    factors remain constant, and to predict hydropower
+                                    generation based on rainfall while other factors remain
+                                    constant
+                                </p>
+                            </div>
+                        </li>
 
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-6">
-              <!-- <iframe
-                class="mb-4 mb-lg-0"
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                frameborder="0"
-                style="border: 0; width: 100%; height: 384px"
-                allowfullscreen
-              ></iframe> -->
+                        <li>
+                            <div
+                                    data-bs-toggle="collapse"
+                                    href="#faq3"
+                                    class="collapsed question"
+                            >
+                                Predicting the upcoming rainfall, the rice harvest, and
+                                hydraulic power production even before the rain is unique
+                                here. <i class="bi bi-chevron-down icon-show"></i
+                            ><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    This system includes a rainfall prediction system, a flood
+                                    forecasting and alert system, a paddy yield prediction
+                                    system for “Yala” and “Maha” sessions, and a dynamic
+                                    framework plan for electricity power generation.
+                                </p>
+                            </div>
+                        </li>
 
-              <iframe
-                src="https://www.google.com/maps/d/embed?mid=1CuplzZeslv7hkvCMwYQxkfcNiEQ&hl=en&ehbc=2E312F"
-                frameborder="0"
-                style="border: 0; width: 100%; height: 384px"
-                allowfullscreen
-              ></iframe>
-            </div>
-
-            <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
-                <div class="row">
-                  <div class="col form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col form-group">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
+                        <li>
+                            <div
+                                    data-bs-toggle="collapse"
+                                    href="#faq4"
+                                    class="collapsed question"
+                            >
+                                In terms of future work, the system can be expanded by
+                                improving accuracy...
+                                <i class="bi bi-chevron-down icon-show"></i
+                                ><i class="bi bi-chevron-up icon-close"></i>
+                            </div>
+                            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    by incorporating more data for training and can be
+                                    provided to government institutes responsible for the
+                                    fields of agriculture, disaster management, and power
+                                    generation to facilitate their decisions.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
+            </div>
+        </div>
+    </section>
+    <!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h2>Contact</h2>
+                <h3><span>Contact Us</span></h3>
+                <p>Contact us for further clarrifications</p>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6">
+                    <div class="info-box mb-4">
+                        <i class="bx bx-map"></i>
+                        <h3>Our Address</h3>
+                        <p>Pittugala ,Malabe,Sri Lanka</p>
+                    </div>
                 </div>
-                <div class="form-group">
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info-box mb-4">
+                        <i class="bx bx-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>contact@example.com</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="info-box mb-4">
+                        <i class="bx bx-phone-call"></i>
+                        <h3>Call Us</h3>
+                        <p>+1 5589 55488 55</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6">
+                    <!-- <iframe
+                      class="mb-4 mb-lg-0"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                      frameborder="0"
+                      style="border: 0; width: 100%; height: 384px"
+                      allowfullscreen
+                    ></iframe> -->
+
+                    <iframe
+                            src="https://www.google.com/maps/d/embed?mid=1CuplzZeslv7hkvCMwYQxkfcNiEQ&hl=en&ehbc=2E312F"
+                            frameborder="0"
+                            style="border: 0; width: 100%; height: 384px"
+                            allowfullscreen
+                    ></iframe>
+                </div>
+
+                <div class="col-lg-6">
+                    <form
+                            action="forms/contact.php"
+                            method="post"
+                            role="form"
+                            class="php-email-form"
+                    >
+                        <div class="row">
+                            <div class="col form-group">
+                                <input
+                                        type="text"
+                                        name="name"
+                                        class="form-control"
+                                        id="name"
+                                        placeholder="Your Name"
+                                        required
+                                />
+                            </div>
+                            <div class="col form-group">
+                                <input
+                                        type="email"
+                                        class="form-control"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Your Email"
+                                        required
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input
+                                    type="text"
+                                    class="form-control"
+                                    name="subject"
+                                    id="subject"
+                                    placeholder="Subject"
+                                    required
+                            />
+                        </div>
+                        <div class="form-group">
                   <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
+                          class="form-control"
+                          name="message"
+                          rows="5"
+                          placeholder="Message"
+                          required
                   ></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">
+                                Your message has been sent. Thank you!
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
             </div>
-          </div>
         </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
+    </section>
+    <!-- End Contact Section -->
+</main>
+<!-- End #main -->
 
-    <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
+<!-- ======= Footer ======= -->
+<footer id="footer">
+    <div class="footer-top">
         <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h3>ML4WeatherSolutions<span>.</span></h3>
-              <p>
-                Pittugala<br />
-                Malabe<br />
-                Sri Lanka <br /><br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
-              </p>
-            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 footer-contact">
+                    <h3>ML4WeatherSolutions<span>.</span></h3>
+                    <p>
+                        Pittugala<br/>
+                        Malabe<br/>
+                        Sri Lanka <br/><br/>
+                        <strong>Phone:</strong> +1 5589 55488 55<br/>
+                        <strong>Email:</strong> info@example.com<br/>
+                    </p>
+                </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Home</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">About us</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Services</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Privacy policy</a>
-                </li>
-              </ul>
-            </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li>
+                            <i class="bx bx-chevron-right"></i> <a href="#">HOME</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i> <a href="#">ABOUT</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i> <a href="#">COMPONENTS</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="#">OBJECTIVES</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="#">DOWNLOADS</a>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Web Development</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Product Management</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
-                </li>
-                <li>
-                  <i class="bx bx-chevron-right"></i>
-                  <a href="#">Graphic Design</a>
-                </li>
-              </ul>
-            </div>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Team Members</h4>
+                    <ul>
+                        <li>
+                            <i class="bx bx-chevron-right"></i> <a href="#">U.P. Hasin Pramodya</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="#">K.D.Hasaranga</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i>
+                            <a href="#">C.P.Weerasinghe</a>
+                        </li>
+                        <li>
+                            <i class="bx bx-chevron-right"></i> <a href="#">Y.D Abeygunewardana</a>
+                        </li>
+                    </ul>
+                </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
-              <h4>Our Social Networks</h4>
+                <div class="col-lg-3 col-md-6 footer-links">
+                    <h4>Our Social Networks</h4>
 
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"
-                  ><i class="bx bxl-instagram"></i
-                ></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-              </div>
+                    <div class="social-links mt-3">
+                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="#" class="instagram"
+                        ><i class="bx bxl-instagram"></i
+                        ></a>
+                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <div class="container py-4">
+    <div class="container py-4">
         <div class="copyright">
-          &copy; Copyright <strong><span>ML4WeatherSolutions</span></strong
-          >. All Rights Reserved
+            &copy; Copyright <strong><span>ML4WeatherSolutions</span></strong
+        >. All Rights Reserved
         </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
+    </div>
+</footer>
+<!-- End Footer -->
 
-    <div id="preloader"></div>
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+<div id="preloader"></div>
+<a
+        href="#"
+        class="back-to-top d-flex align-items-center justify-content-center"
+><i class="bi bi-arrow-up-short"></i
+></a>
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
 
-    <script src="assets/js/main.js"></script>
-  </body>
+<script src="assets/js/main.js"></script>
+</body>
 </html>
